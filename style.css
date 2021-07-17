@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+figure{
+    /* opacity: 95%; */
+    margin: 10px;
+    border-radius: 5px;
+    color: #4cc9f0;
+    /* background-color: #3f37c9; */
+    border: 2px solid #ccc;
+    text-align: center;
+    width: 300px;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 3px 10px #ccc;
+}
+img{
+    width: 280px;
+    height: 330px;
+    padding: 10px;
+}
+
+figure button{
+    font-size: 1rem;
+}
+
+nav{
+    text-align: center;
+    height: 50px;
+    background-color: #334257;
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif; 
+    opacity: 98%;
+    padding-top: 20px;
+}
+#poster{
+    padding-right: 11px;
+    margin: 20px 0 15px 0;
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    color: snow;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.2em;
+     opacity: 99%; 
+}
+#poster h1{
+    display:inline-block;
+    /* margin: 170px; */
+}
+#poster .welcome{
+    color: chartreuse;
+    text-shadow: 1px 1px 5px greenyellow;
+    margin-top: 170px;
+}
+#poster .to{
+    text-shadow: 1px 1px 5px #ccc;
+    color: white;
+    margin-top: 170px;
+}
+#poster .india{
+    text-shadow: 1px 1px 5px orange;
+    color: #FF8303;
+    margin-top: 170px;
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#poster h1:hover{
+    transform: scale(1.09); 
+}
+figure:hover{
+    transform: scale(1.08);
+}
