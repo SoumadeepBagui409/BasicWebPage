@@ -3,6 +3,7 @@
     margin: 0;
 }
 figure{
+    transition: 500ms;
     /* opacity: 95%; */
     margin: 10px;
     border-radius: 5px;
@@ -34,6 +35,13 @@ nav{
     font-family: Arial, Helvetica, sans-serif; 
     opacity: 98%;
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(251, 226, 230);
+}
+nav i{
+    margin-right: 10px;
+    font-size: 30px;
 }
 #poster{
     padding-right: 11px;
@@ -49,6 +57,7 @@ nav{
      opacity: 99%; 
 }
 #poster h1{
+    transition: 900ms;  
     display:inline-block;
     /* margin: 170px; */
 }
@@ -77,9 +86,8 @@ nav{
     transform: scale(1.09); 
 }
 figure:hover{
-    transform: scale(1.08);
+    transform: scale(1.01);
 }
-
 
 @media screen and (max-width: 690px){
     h1{
@@ -89,5 +97,10 @@ figure:hover{
 @media screen and (max-width: 511px){
     h1{
         font-size: 1rem;
+    }
+}
+@media screen and (max-width: 320px),(max-width: 324px)    {
+    h1{
+        font-size: 0.7rem;
     }
 }
